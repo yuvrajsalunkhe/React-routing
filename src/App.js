@@ -15,8 +15,7 @@ import './App.css';
 
 function App() {
   return (
-    <Router>
-      
+    <Router>      
       <div className="navbar-collapse">
         <nav  className="navbar navbar-expand-lg navbar-dark bg-dark">
           <ul className="navbar-nav mr-auto">
@@ -25,6 +24,9 @@ function App() {
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/users">Users</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/users">contact</Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/about">About</Link>
