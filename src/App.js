@@ -47,6 +47,7 @@ function App() {
             {/* not found Path */}
             <Route path="*">
               <Notfound />
+              
             </Route>
         </Switch>
       </div>
